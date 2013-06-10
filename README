@@ -1,0 +1,68 @@
+/*
+*************************************************************************
+* 1- License
+************************************************************************
+
+   PacketSniffer - A (very) simple packet sniffer with filters
+   Copyright (C) 2013 Danilo P. Cardoso
+
+     email: DaNotKnow@gmail.com
+ 
+   This program is free software: you can redistribute it and/or modify
+   it under the terms of the GNU General Public License as published by
+   the Free Software Foundation, either version 3 of the License, or
+   (at your option) any later version.
+ 
+   This program is distributed in the hope that it will be useful,
+   but WITHOUT ANY WARRANTY; without even the implied warranty of
+   MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+   GNU General Public License for more details.
+ 
+   You should have received a copy of the GNU General Public License
+   along with this program.  If not, see <http://www.gnu.org/licenses/>.
+
+
+***************************************************************************
+2 - Special Thanks
+**************************************************************************
+I'd like to thanks all the guys who helped me in order to create this
+simple program, i leant a lot studying how to program C sockets.
+Special thanks goes to:
+
+>	Geyslan (geyslan@gmail.com)
+>	Cooler_ (c00f3r.gmail.com)
+>	Alfredo (1phee3@gmail.com)
+>	Fleury  (marcelomf@gmail.com)
+>	Silver Moon (m00n.silv3r@gmail.com)
+
+***************************************************************************
+3 - What does this program do?
+**************************************************************************
+This simple program just sniff your packets. You can also filter the packets
+by source and destination MAC,IP and PORT.
+
+I created this while i was ( still am) studying about C sockets. So i decided
+to try to code my own program. 
+
+BTW im not a good C programmer, hence, the structure of the program kinda 
+sucks (im studying more of this now, maybe i can make a better one!)
+
+***************************************************************************
+4 - How to install
+**************************************************************************
+To compile the program, follow this steps:
+
+a. Unpack and unzip the program.
+b. cd to unzip folder
+c. make
+d. ./packetsniffer
+
+***************************************************************************
+5 - Security Issues
+**************************************************************************
+The are some buffer overflows and Heap overflows vulnerabilities. So i dont
+recommend the use on a "real" pc.
+
+
+
+ 
